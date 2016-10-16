@@ -1,0 +1,29 @@
+{
+    "name": "xloit/xloit-std-interop",
+    "type": "library",
+    "description": "Xloit Std Interop Library",
+    "keywords": [
+        "xloit",
+        "std-interop",
+        "library"
+    ],
+    "homepage": "http://projects.xloit.com/xloit/std-interop",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yudha Setiawan",
+            "email": "me@yudhasetiawan.com",
+            "homepage": "http://yudhasetiawan.com/"
+        }
+    ],
+    "require": {
+        "php": "^5.5 || ^7.0"
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Xloit\\Std\\Interop\\": "src/"
+        }
+    }
+}
