@@ -27,7 +27,7 @@ interface CloneableInterface
     /**
      * Creates and returns a copy of this object. The precise meaning of "copy" may depend on the class of the object.
      *
-     * @return static
+     * @return void
      */
     public function __clone();
 }
