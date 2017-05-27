@@ -27,7 +27,6 @@ interface PackerInterface
     /**
      * Pack the values to an object.
      *
-     *
      * @return mixed
      */
     public function pack();

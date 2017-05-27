@@ -31,7 +31,7 @@ interface GreaterThanEqualInterface
      *
      * @param ComparableInterface $element
      *
-     * @return boolean
+     * @return bool
      */
     public function isGreaterThanOrEqual(ComparableInterface $element);
 }

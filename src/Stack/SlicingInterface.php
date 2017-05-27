@@ -34,7 +34,7 @@ interface SlicingInterface
      * @param int $offset The offset to start from.
      * @param int $length The maximum number of elements to return, or null for no limit.
      *
-     * @return array
+     * @return $this A {@link SlicingInterface} implementation with the new results of the slice operation.
      */
     public function slice($offset, $length = null);
 }

@@ -31,7 +31,7 @@ interface ArrayExchangerInterface
      *
      * @param array|Traversable $elements
      *
-     * @return static
+     * @return $this This instance.
      */
     public function exchangeFromArray($elements);
 }

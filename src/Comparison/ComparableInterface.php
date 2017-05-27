@@ -30,9 +30,9 @@ interface ComparableInterface
      * Compares this instance with the specified object for order. Returns a negative int, zero, or a positive
      * int as this instance is less than, equal to, or greater than the specified object.
      *
-     * @param mixed $element
+     * @param ComparableInterface $element
      *
      * @return int
      */
-    public function compareTo($element);
+    public function compareTo(ComparableInterface $element);
 }

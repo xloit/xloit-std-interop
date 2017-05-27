@@ -34,7 +34,7 @@ interface AppendableInterface
      *
      * @param mixed $element
      *
-     * @return static
+     * @return $this This instance.
      */
     public function append($element);
 }

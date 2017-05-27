@@ -31,7 +31,7 @@ interface EquatableInterface
      *
      * @param ComparableInterface $element
      *
-     * @return boolean
+     * @return bool
      */
     public function isEqualTo(ComparableInterface $element);
 }

@@ -30,7 +30,7 @@ interface ExistenceInterface
      *
      * @param mixed $element
      *
-     * @return boolean
+     * @return bool
      */
     public function isExists($element);
 }

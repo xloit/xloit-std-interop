@@ -29,7 +29,7 @@ interface HierarchicalInterface
     /**
      * Check if the current object has children.
      *
-     * @return boolean
+     * @return bool
      */
     public function hasChildren();
 

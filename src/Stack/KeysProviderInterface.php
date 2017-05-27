@@ -27,8 +27,9 @@ interface KeysProviderInterface
     /**
      * Gets all keys/indices of this {@link KeysProviderInterface} implementation.
      *
-     * @return array The keys/indices of this {@link KeysProviderInterface} implementation, in the order of the
-     *               corresponding elements in this implementation.
+     * @return $this A {@link KeysProviderInterface} implementation with the keys/indices of this {@link
+     *               KeysProviderInterface} implementation, in the order of the corresponding elements in this
+     *               implementation.
      */
     public function getKeys();
 }

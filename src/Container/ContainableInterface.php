@@ -30,7 +30,7 @@ interface ContainableInterface
      *
      * @param string|int $name
      *
-     * @return boolean
+     * @return bool
      */
     public function has($name);
 }

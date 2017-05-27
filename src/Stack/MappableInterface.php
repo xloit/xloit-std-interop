@@ -32,7 +32,7 @@ interface MappableInterface
      *
      * @param Closure $mapper
      *
-     * @return static A {@link MappableInterface} implementation with the new results of the map operation.
+     * @return $this A {@link MappableInterface} implementation with the new results of the map operation.
      */
     public function map(Closure $mapper);
 }

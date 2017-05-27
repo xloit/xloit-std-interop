@@ -27,7 +27,7 @@ interface ImmutableInterface
     /**
      * Determine if this object is isImmutable.
      *
-     * @return boolean
+     * @return bool
      */
     public function isImmutable();
 }

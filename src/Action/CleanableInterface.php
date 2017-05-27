@@ -25,7 +25,7 @@ namespace Xloit\Std\Interop\Action;
 interface CleanableInterface
 {
     /**
-     * Clean a raw of content to become a valid content without threats
+     * Clean a raw of content to become a valid content without threats.
      *
      * @param mixed $data
      *

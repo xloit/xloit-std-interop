@@ -28,7 +28,7 @@ interface ImmutableMarkerInterface
     /**
      * Mark object as is immutable.
      *
-     * @return static
+     * @return $this This instance.
      */
     public function markImmutable();
 }

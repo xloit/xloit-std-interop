@@ -27,7 +27,7 @@ interface CurrentTimeProviderInterface
     /**
      * Return the current time.
      *
-     * @return string
+     * @return int A Unix timestamp.
      */
     public function getCurrentTime();
 }

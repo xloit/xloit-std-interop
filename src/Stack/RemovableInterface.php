@@ -32,7 +32,7 @@ interface RemovableInterface
      *
      * @param string|int $key
      *
-     * @return mixed The removed element
+     * @return mixed The removed element.
      */
     public function remove($key);
 }

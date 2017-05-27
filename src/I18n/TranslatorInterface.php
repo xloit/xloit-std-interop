@@ -18,7 +18,7 @@
 namespace Xloit\Std\Interop\I18n;
 
 /**
- * A {@link \Xloit\Std\Interop\I18n\TranslatorInterface} interface.
+ * A {@link TranslatorInterface} interface.
  *
  * @package Xloit\Std\Interop\I18n
  */
@@ -29,7 +29,7 @@ interface TranslatorInterface
      *
      * @param string $defaultLanguage
      *
-     * @return static
+     * @return $this This instance.
      */
     public function setDefaultLanguage($defaultLanguage);
 

@@ -25,7 +25,7 @@ namespace Xloit\Std\Interop\Archive;
 interface ExtractionInterface
 {
     /**
-     * Extract values from an object
+     * Extract values from an object.
      *
      * @param mixed $element
      *

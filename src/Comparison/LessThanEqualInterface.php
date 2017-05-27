@@ -31,7 +31,7 @@ interface LessThanEqualInterface
      *
      * @param ComparableInterface $element
      *
-     * @return boolean
+     * @return bool
      */
     public function isLessThanOrEqual(ComparableInterface $element);
 }

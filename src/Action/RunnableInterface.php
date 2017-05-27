@@ -27,7 +27,7 @@ interface RunnableInterface
     /**
      * Run the object.
      *
-     * @return static
+     * @return $this This instance.
      */
     public function run();
 }

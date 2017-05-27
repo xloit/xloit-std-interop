@@ -17,8 +17,6 @@
 
 namespace Xloit\Std\Interop\Validator;
 
-use InvalidArgumentException;
-
 /**
  * A {@link ValidatorInterface} interface must be implemented by any class whose instances are intended to check
  * the specified element is valid type.
@@ -30,9 +28,7 @@ interface ValidatorInterface
     /**
      * Whether the current object is valid.
      *
-     * @throws InvalidArgumentException
-     *
-     * @return boolean
+     * @return bool
      */
     public function isValid();
 }

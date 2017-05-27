@@ -30,7 +30,7 @@ interface PrependableInterface
      *
      * @param mixed $element
      *
-     * @return static
+     * @return $this This instance.
      */
     public function prepend($element);
 }

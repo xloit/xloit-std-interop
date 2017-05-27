@@ -27,7 +27,7 @@ interface PreparableInterface
     /**
      *
      *
-     * @return static
+     * @return $this This instance.
      */
     public function prepare();
 }

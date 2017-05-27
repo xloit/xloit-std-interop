@@ -32,7 +32,7 @@ interface FilterableInterface
      *
      * @param Closure $predicate The predicate used for filtering.
      *
-     * @return static A {@link FilterableInterface} implementation with the results of the filter operation.
+     * @return $this A {@link FilterableInterface} implementation with the results of the filter operation.
      */
     public function filter(Closure $predicate);
 }

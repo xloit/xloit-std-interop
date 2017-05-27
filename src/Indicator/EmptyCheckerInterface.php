@@ -27,7 +27,7 @@ interface EmptyCheckerInterface
     /**
      * Indicates whether the collection is empty (contains no elements).
      *
-     * @return boolean
+     * @return bool
      */
     public function isEmpty();
 }

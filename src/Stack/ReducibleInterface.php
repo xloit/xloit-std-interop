@@ -31,7 +31,7 @@ interface ReducibleInterface
      * @param mixed    $element
      * @param callable $reducer
      *
-     * @return mixed
+     * @return $this A {@link ReducibleInterface} implementation with the new results of the reduce operation.
      */
     public function reduce($element, callable $reducer);
 }
